@@ -1,0 +1,24 @@
+
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.box1{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1>h1,p{
+    color: white;
+    
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    background-color: rgb(167, 163, 163);
+}

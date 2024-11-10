@@ -43,3 +43,13 @@ for (fruit of aa1){
 for(char1 of "helloworld"){
     console.log(char1);
 }
+
+// Nested For of Loop
+
+let hero=[["ironman","spiderman"],["thor","superman","flash"]];
+
+for(a of hero){
+    for (b of a ){
+        console.log(b);
+    }
+}

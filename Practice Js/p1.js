@@ -53,3 +53,22 @@ for(a of hero){
         console.log(b);
     }
 }
+
+
+// Js objects
+
+let student={
+    name:"Kartik",
+    age:20,
+    city:"Delhi",
+    marks:88
+};
+
+
+console.log(student);
+
+// get values
+
+console.log(student["name"]);
+console.log(student.age);
+

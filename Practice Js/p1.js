@@ -82,3 +82,21 @@ delete student.age;
 
 
 console.log(student);
+
+
+// Object of objects
+
+let classinfo={
+    aman:{
+        age:20,
+        marks:66
+    },
+    kartik:{
+        age:21,
+        marks:84
+    }
+};
+
+console.log(classinfo);
+console.log(classinfo.aman);
+console.log(classinfo.kartik.marks);

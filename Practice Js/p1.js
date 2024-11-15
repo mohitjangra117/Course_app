@@ -65,10 +65,20 @@ let student={
 };
 
 
-console.log(student);
+
 
 // get values
 
 console.log(student["name"]);
 console.log(student.age);
 
+
+// Add / update / Delete 
+
+student.city="Mumbai";
+student.gender="Female";
+student.marks="A";
+delete student.age;
+
+
+console.log(student);

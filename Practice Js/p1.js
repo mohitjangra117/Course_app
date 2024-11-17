@@ -100,3 +100,19 @@ let classinfo={
 console.log(classinfo);
 console.log(classinfo.aman);
 console.log(classinfo.kartik.marks);
+
+
+
+// Array of Objects
+
+let arrr=[
+    {name:"Aman", age:20},
+
+    {name:"Kartik",age:21}
+
+];
+
+console.log(arrr);
+console.log(arrr[0]);
+console.log(arrr[0].name);
+console.log(arrr[0].age);

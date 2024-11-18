@@ -129,7 +129,7 @@ console.log(Math.random());
 console.log(Math.pow(2,4));
 console.log(Math.abs(-5));
 console.log(Math.floor(4.8545));
-console.log(Math.ceil(4.8545));
+console.log(Math.ceil(4.1545));
 
 
 // Random integers from 1-10
@@ -138,3 +138,26 @@ console.log(Math.ceil(4.8545));
 let n=Math.random()*10+1;
 let m=Math.floor(n);
 console.log(m);
+
+
+function hello(){
+    console.log("Hello");
+}
+
+hello();
+
+
+function sum(a,b){
+   console.log(a+b);
+}
+
+
+sum(1,5);
+
+
+function printnames(name1,name2){
+    console.log(name1);
+    console.log(name2);
+}
+
+printnames("kartik", "Rohan");

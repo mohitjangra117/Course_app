@@ -132,3 +132,9 @@ console.log(Math.floor(4.8545));
 console.log(Math.ceil(4.8545));
 
 
+// Random integers from 1-10
+
+
+let n=Math.random()*10+1;
+let m=Math.floor(n);
+console.log(m);

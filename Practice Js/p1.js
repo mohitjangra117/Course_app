@@ -161,3 +161,19 @@ function printnames(name1,name2){
 }
 
 printnames("kartik", "Rohan");
+
+function sum1(a,b){
+    return a+b;
+}
+
+let s=sum(1,6);
+
+
+const ss=function(a,b){
+    return a+b;
+}
+
+ss(5,8);
+
+console.log(ss);
+ 

@@ -176,4 +176,45 @@ const ss=function(a,b){
 ss(5,8);
 
 console.log(ss);
+
+
+
+// high order Functions 
+
+
+function multi(fun,n){
+    for(let i=0;i<n;i++){
+        fun();
+    }
+}
+
+let abc=function(){
+    console.log("Hello");
+}
+
+multi(abc,4);
  
+
+multi(function() {console.log("method2");},3);
+
+
+
+function printh(fun,n){
+    while(n--){
+        fun();
+    }
+}
+
+let aa=function(){
+    console.log("AAAAA");
+}
+
+printh(aa,3);
+
+
+
+
+
+
+
+

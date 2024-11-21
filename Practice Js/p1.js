@@ -215,6 +215,37 @@ printh(aa,3);
 
 
 
+function summ(func , n){
+    for(let i=0;i<n;i++){
+        func();
+    }
+
+}
+
+let abb=function(){
+    console.log("Hello World");
+}
+
+summ(abb,5);
+
+
+console.log(abb);
+
+
+// Return a function   
+
+
+function sub(){
+    return function(a,b){
+           return a-b;
+    }
+}
+
+let xyy=sub();
+console.log(xyy);
+console.log(xyy(5,4));
+
+
 
 
 

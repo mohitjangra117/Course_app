@@ -267,3 +267,22 @@ console.log(calculator.add(4,6));
 console.log(calculator.sub(4,6));
 
 
+// This 
+
+
+let student={
+    name:"Kartik",
+    age:20,
+    math:80,
+    eng:88,
+    getavg(){
+        console.log(this);
+        console.log(this.eng);
+        console.log(this.math);
+        let avg=(this.eng+this.math)/2;
+        console.log("Average marks are : " , avg);
+    }
+
+}
+
+student.getavg();

@@ -249,3 +249,21 @@ console.log(xyy(5,4));
 
 
 
+// methods that can be performed on an obejct
+
+
+const calculator={
+    add:function(a,b){
+        return a+b;
+    },
+    sub:function(a,b){
+        return a-b;
+    }
+}
+
+console.log(calculator);
+console.log(calculator.add);
+console.log(calculator.add(4,6));
+console.log(calculator.sub(4,6));
+
+

@@ -296,3 +296,10 @@ const sum2=(a,b)=>{
 }
 
 sum2(5,66);
+
+const mul2=(a,b)=>(
+    a*b
+)
+
+let x=mul2(2,4);
+console.log(x);

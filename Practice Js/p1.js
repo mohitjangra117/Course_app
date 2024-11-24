@@ -286,3 +286,13 @@ let student={
 }
 
 student.getavg();
+
+
+
+//  Arrow Functions 
+
+const sum2=(a,b)=>{
+ console.log(a+b);
+}
+
+sum2(5,66);

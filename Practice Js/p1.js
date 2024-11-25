@@ -303,3 +303,13 @@ const mul2=(a,b)=>(
 
 let x=mul2(2,4);
 console.log(x);
+
+
+
+//  setTimeout
+
+setTimeout(()=>{
+    console.log("Hello");
+},4000);
+
+

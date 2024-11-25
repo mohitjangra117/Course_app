@@ -306,10 +306,23 @@ console.log(x);
 
 
 
-//  setTimeout
+//  setTimeout      -   execute only once
 
 setTimeout(()=>{
     console.log("Hello");
-},4000);
+},4000);                          // print hello after 4 sec and stop 
+  
 
+// setInterval       -- executes infinitely
+
+let si=setInterval(()=>{
+    console.log("World");
+},2000);
+
+// Stopping condition
+
+setTimeout(()=>{
+    clearInterval(si);
+    console.log("Interval cleared");
+},6000);
 

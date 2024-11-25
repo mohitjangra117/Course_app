@@ -306,23 +306,60 @@ console.log(x);
 
 
 
-//  setTimeout      -   execute only once
+// //  setTimeout      -   execute only once
 
-setTimeout(()=>{
-    console.log("Hello");
-},4000);                          // print hello after 4 sec and stop 
+// setTimeout(()=>{
+//     console.log("Hello");
+// },4000);                          // print hello after 4 sec and stop 
   
 
-// setInterval       -- executes infinitely
+// // setInterval       -- executes infinitely
 
-let si=setInterval(()=>{
-    console.log("World");
-},2000);
+// let si=setInterval(()=>{
+//     console.log("World");
+// },2000);
 
-// Stopping condition
+// // Stopping condition
 
-setTimeout(()=>{
-    clearInterval(si);
-    console.log("Interval cleared");
-},6000);
+// setTimeout(()=>{
+//     clearInterval(si);
+//     console.log("Interval cleared");
+// },6000);
+
+
+
+// This with arrow function
+
+console.warn("This with Arrow Function")
+
+
+const student1={
+    marks:95,
+    prop:this,
+    getmarks1:function(){
+        console.log("Normal Function");
+        console.log(this);
+    },
+    getmarks2:()=>{
+        console.log("Arrow Function");
+        console.log(this);
+    },
+    get1:function(){
+        setTimeout(()=>{
+            console.log("Arrow function in setTimeout");
+            console.log(this);
+        },2000);
+    },
+    get2:function(){
+        setTimeout(function(){
+            console.log("Normal Function in setTimeout  ,  window because the calling object is setTimeout and setTimeout is Window object");
+            console.log(this);
+        }),2000;
+    }
+}
+
+student1.getmarks1();
+student1.getmarks2();
+student1.get1();
+student1.get2();
 
